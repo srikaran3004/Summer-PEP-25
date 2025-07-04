@@ -1,0 +1,5 @@
+Load balancing
+Reverse proxy
+Least connections on load balancing
+Weighted Round robin
+KMP Algorithm

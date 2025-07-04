@@ -1,0 +1,11 @@
+CAP Theorem-> Consistency, Avaliability, Partition Tolerance
+PACELC-> When Partition Tolerance is there we need to choose between A and C , else we need to choose between Latency and Consistency (as until Consistency is attained user request will not get executed).
+
+//While writing code make sure you follow these principles.
+DRY-> Donot repeat yourself
+Readability -> Code should be modular enough.
+
+Read OSI model to better understand Loadbalancing -> Two types related to L4 and L7 ( Transport and Application layer)
+Sticky request -> X request -> hash(X)%no.of servers =(index) 
+X request goes to that index.
+Consistent hashing.
