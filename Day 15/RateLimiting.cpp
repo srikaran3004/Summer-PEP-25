@@ -46,6 +46,5 @@ int main() {
         // Advance simulated time by 0.5 seconds
         simulatedTime += 0.5;
     }
-
     return 0;
 }
